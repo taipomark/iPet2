@@ -7,15 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF29B1E526F2353C00640C14 /* PetDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29B1E426F2353C00640C14 /* PetDetail.swift */; };
+		FF29B1E726F36CDB00640C14 /* PetEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29B1E626F36CDB00640C14 /* PetEdit.swift */; };
+		FF29B1E926F4C26B00640C14 /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29B1E826F4C26B00640C14 /* Items.swift */; };
+		FF29B1EB26F4C41300640C14 /* ItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29B1EA26F4C41300640C14 /* ItemList.swift */; };
+		FF29B1ED26F5597E00640C14 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29B1EC26F5597E00640C14 /* ItemRow.swift */; };
+		FF29B1EF26F5635500640C14 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29B1EE26F5635500640C14 /* ItemDetail.swift */; };
+		FF29B1F126F56ABB00640C14 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29B1F026F56ABB00640C14 /* SearchBar.swift */; };
+		FF29B1F326F5D39C00640C14 /* Carts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29B1F226F5D39C00640C14 /* Carts.swift */; };
+		FF29B1F526F6B47B00640C14 /* Stores.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29B1F426F6B47B00640C14 /* Stores.swift */; };
+		FF29B1F726F6BA9C00640C14 /* CartCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF29B1F626F6BA9C00640C14 /* CartCreateViewModel.swift */; };
+		FF5D2CDF26FF35EE008DD93A /* PetStatCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D2CDE26FF35EE008DD93A /* PetStatCreateViewModel.swift */; };
+		FF5D2CE12700962A008DD93A /* PurchaseProportionPie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D2CE02700962A008DD93A /* PurchaseProportionPie.swift */; };
+		FF5D2CE327009D11008DD93A /* PurchaseProportionPiechart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D2CE227009D11008DD93A /* PurchaseProportionPiechart.swift */; };
+		FF5D2CE52700ACAA008DD93A /* PurchasePieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D2CE42700ACA9008DD93A /* PurchasePieChart.swift */; };
+		FF5D2CE7270690D7008DD93A /* PieCatColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D2CE6270690D6008DD93A /* PieCatColor.swift */; };
+		FF5D2CEA2706F5EE008DD93A /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D2CE92706F5EE008DD93A /* BarChart.swift */; };
+		FF5D2CEC2707041E008DD93A /* PurchaseTrend.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D2CEB2707041D008DD93A /* PurchaseTrend.swift */; };
+		FF5D2CEE2707F07D008DD93A /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D2CED2707F07C008DD93A /* LineChart.swift */; };
+		FF918CAC26FEA12700D58974 /* PetConsumptionGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF918CAB26FEA12700D58974 /* PetConsumptionGraph.swift */; };
+		FF918CAE26FEA15800D58974 /* PetStatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF918CAD26FEA15800D58974 /* PetStatList.swift */; };
+		FF918CB026FEA16200D58974 /* PetStatEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF918CAF26FEA16200D58974 /* PetStatEdit.swift */; };
+		FF918CB226FEA16D00D58974 /* PetStatGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF918CB126FEA16D00D58974 /* PetStatGraph.swift */; };
 		FF932DAA26EE045300581D94 /* iPetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF932DA926EE045300581D94 /* iPetApp.swift */; };
 		FF932DAC26EE045300581D94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF932DAB26EE045300581D94 /* ContentView.swift */; };
 		FF932DAE26EE045500581D94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF932DAD26EE045500581D94 /* Assets.xcassets */; };
 		FF932DB126EE045500581D94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF932DB026EE045500581D94 /* Preview Assets.xcassets */; };
 		FF932DB326EE045500581D94 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF932DB226EE045500581D94 /* Persistence.swift */; };
 		FF932DB626EE045500581D94 /* iPet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF932DB426EE045500581D94 /* iPet.xcdatamodeld */; };
+		FF932DC726EE052800581D94 /* CartMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF932DC626EE052800581D94 /* CartMain.swift */; };
+		FF932DCB26EE053E00581D94 /* ManageMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF932DCA26EE053E00581D94 /* ManageMain.swift */; };
+		FF932DCD26EE054A00581D94 /* PetMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF932DCC26EE054A00581D94 /* PetMain.swift */; };
+		FF932DCF26EE1E4700581D94 /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF932DCE26EE1E4700581D94 /* Pets.swift */; };
+		FF932DD626EE283E00581D94 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF932DD526EE283E00581D94 /* Color+Ext.swift */; };
+		FF932DD826EE446100581D94 /* PetCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF932DD726EE446100581D94 /* PetCreate.swift */; };
+		FF932DDA26EE488300581D94 /* PetCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF932DD926EE488300581D94 /* PetCreateViewModel.swift */; };
+		FFAF8D2C26F74BC600BF14F0 /* StockList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D2B26F74BC600BF14F0 /* StockList.swift */; };
+		FFAF8D2E26FAA43500BF14F0 /* Text+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D2D26FAA43500BF14F0 /* Text+Ext.swift */; };
+		FFAF8D3026FB69E900BF14F0 /* PurchaseHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D2F26FB69E900BF14F0 /* PurchaseHistory.swift */; };
+		FFAF8D3226FB6AB500BF14F0 /* ConsumptionHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D3126FB6AB500BF14F0 /* ConsumptionHistory.swift */; };
+		FFAF8D3426FB6BA500BF14F0 /* PetStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D3326FB6BA500BF14F0 /* PetStat.swift */; };
+		FFAF8D3626FCADA700BF14F0 /* StockHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D3526FCADA700BF14F0 /* StockHistory.swift */; };
+		FFAF8D3826FCC18600BF14F0 /* PetStatMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAF8D3726FCC18600BF14F0 /* PetStatMain.swift */; };
+		FFBF7DA926FE2A54001B353E /* PetConsumeHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBF7DA826FE2A54001B353E /* PetConsumeHistory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF29B1E426F2353C00640C14 /* PetDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetail.swift; sourceTree = "<group>"; };
+		FF29B1E626F36CDB00640C14 /* PetEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetEdit.swift; sourceTree = "<group>"; };
+		FF29B1E826F4C26B00640C14 /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		FF29B1EA26F4C41300640C14 /* ItemList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemList.swift; sourceTree = "<group>"; };
+		FF29B1EC26F5597E00640C14 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		FF29B1EE26F5635500640C14 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		FF29B1F026F56ABB00640C14 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FF29B1F226F5D39C00640C14 /* Carts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carts.swift; sourceTree = "<group>"; };
+		FF29B1F426F6B47B00640C14 /* Stores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stores.swift; sourceTree = "<group>"; };
+		FF29B1F626F6BA9C00640C14 /* CartCreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartCreateViewModel.swift; sourceTree = "<group>"; };
+		FF5D2CDE26FF35EE008DD93A /* PetStatCreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStatCreateViewModel.swift; sourceTree = "<group>"; };
+		FF5D2CE02700962A008DD93A /* PurchaseProportionPie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseProportionPie.swift; sourceTree = "<group>"; };
+		FF5D2CE227009D11008DD93A /* PurchaseProportionPiechart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseProportionPiechart.swift; sourceTree = "<group>"; };
+		FF5D2CE42700ACA9008DD93A /* PurchasePieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchasePieChart.swift; sourceTree = "<group>"; };
+		FF5D2CE6270690D6008DD93A /* PieCatColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieCatColor.swift; sourceTree = "<group>"; };
+		FF5D2CE92706F5EE008DD93A /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		FF5D2CEB2707041D008DD93A /* PurchaseTrend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseTrend.swift; sourceTree = "<group>"; };
+		FF5D2CED2707F07C008DD93A /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		FF918CAB26FEA12700D58974 /* PetConsumptionGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetConsumptionGraph.swift; sourceTree = "<group>"; };
+		FF918CAD26FEA15800D58974 /* PetStatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStatList.swift; sourceTree = "<group>"; };
+		FF918CAF26FEA16200D58974 /* PetStatEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStatEdit.swift; sourceTree = "<group>"; };
+		FF918CB126FEA16D00D58974 /* PetStatGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStatGraph.swift; sourceTree = "<group>"; };
 		FF932DA626EE045300581D94 /* iPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF932DA926EE045300581D94 /* iPetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPetApp.swift; sourceTree = "<group>"; };
 		FF932DAB26EE045300581D94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +83,21 @@
 		FF932DB226EE045500581D94 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		FF932DB526EE045500581D94 /* iPet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPet.xcdatamodel; sourceTree = "<group>"; };
 		FF932DB726EE045500581D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF932DC626EE052800581D94 /* CartMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartMain.swift; sourceTree = "<group>"; };
+		FF932DCA26EE053E00581D94 /* ManageMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageMain.swift; sourceTree = "<group>"; };
+		FF932DCC26EE054A00581D94 /* PetMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetMain.swift; sourceTree = "<group>"; };
+		FF932DCE26EE1E4700581D94 /* Pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
+		FF932DD526EE283E00581D94 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		FF932DD726EE446100581D94 /* PetCreate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCreate.swift; sourceTree = "<group>"; };
+		FF932DD926EE488300581D94 /* PetCreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetCreateViewModel.swift; sourceTree = "<group>"; };
+		FFAF8D2B26F74BC600BF14F0 /* StockList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockList.swift; sourceTree = "<group>"; };
+		FFAF8D2D26FAA43500BF14F0 /* Text+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+Ext.swift"; sourceTree = "<group>"; };
+		FFAF8D2F26FB69E900BF14F0 /* PurchaseHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseHistory.swift; sourceTree = "<group>"; };
+		FFAF8D3126FB6AB500BF14F0 /* ConsumptionHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionHistory.swift; sourceTree = "<group>"; };
+		FFAF8D3326FB6BA500BF14F0 /* PetStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStat.swift; sourceTree = "<group>"; };
+		FFAF8D3526FCADA700BF14F0 /* StockHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockHistory.swift; sourceTree = "<group>"; };
+		FFAF8D3726FCC18600BF14F0 /* PetStatMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetStatMain.swift; sourceTree = "<group>"; };
+		FFBF7DA826FE2A54001B353E /* PetConsumeHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetConsumeHistory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +111,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF5D2CE82706F5DE008DD93A /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D2CE92706F5EE008DD93A /* BarChart.swift */,
+				FF5D2CED2707F07C008DD93A /* LineChart.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		FF5D2CF027082C8E008DD93A /* PetStat */ = {
+			isa = PBXGroup;
+			children = (
+				FFAF8D3726FCC18600BF14F0 /* PetStatMain.swift */,
+				FFBF7DA826FE2A54001B353E /* PetConsumeHistory.swift */,
+				FF918CAB26FEA12700D58974 /* PetConsumptionGraph.swift */,
+				FF918CAD26FEA15800D58974 /* PetStatList.swift */,
+				FF918CAF26FEA16200D58974 /* PetStatEdit.swift */,
+				FF918CB126FEA16D00D58974 /* PetStatGraph.swift */,
+			);
+			path = PetStat;
+			sourceTree = "<group>";
+		};
 		FF932D9D26EE045300581D94 = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +152,13 @@
 		FF932DA826EE045300581D94 /* iPet */ = {
 			isa = PBXGroup;
 			children = (
+				FF932DD426EE281400581D94 /* Extension */,
+				FF932DBF26EE04C800581D94 /* ViewModel */,
+				FF932DBE26EE04B900581D94 /* Model */,
+				FF932DBD26EE04B400581D94 /* View */,
 				FF932DA926EE045300581D94 /* iPetApp.swift */,
 				FF932DAB26EE045300581D94 /* ContentView.swift */,
 				FF932DAD26EE045500581D94 /* Assets.xcassets */,
-				FF932DB226EE045500581D94 /* Persistence.swift */,
 				FF932DB726EE045500581D94 /* Info.plist */,
 				FF932DB426EE045500581D94 /* iPet.xcdatamodeld */,
 				FF932DAF26EE045500581D94 /* Preview Content */,
@@ -73,6 +172,114 @@
 				FF932DB026EE045500581D94 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FF932DBD26EE04B400581D94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D2CF027082C8E008DD93A /* PetStat */,
+				FF5D2CE82706F5DE008DD93A /* Chart */,
+				FF932DC526EE050D00581D94 /* Cart */,
+				FF932DC426EE050400581D94 /* Item */,
+				FF932DC326EE04FB00581D94 /* Manage */,
+				FF932DC026EE04D800581D94 /* Profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF932DBE26EE04B900581D94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF932DB226EE045500581D94 /* Persistence.swift */,
+				FF932DCE26EE1E4700581D94 /* Pets.swift */,
+				FF29B1E826F4C26B00640C14 /* Items.swift */,
+				FF29B1F226F5D39C00640C14 /* Carts.swift */,
+				FF29B1F426F6B47B00640C14 /* Stores.swift */,
+				FFAF8D2F26FB69E900BF14F0 /* PurchaseHistory.swift */,
+				FFAF8D3126FB6AB500BF14F0 /* ConsumptionHistory.swift */,
+				FFAF8D3326FB6BA500BF14F0 /* PetStat.swift */,
+				FF5D2CE42700ACA9008DD93A /* PurchasePieChart.swift */,
+				FF5D2CE6270690D6008DD93A /* PieCatColor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF932DBF26EE04C800581D94 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FF932DD926EE488300581D94 /* PetCreateViewModel.swift */,
+				FF29B1F626F6BA9C00640C14 /* CartCreateViewModel.swift */,
+				FF5D2CDE26FF35EE008DD93A /* PetStatCreateViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FF932DC026EE04D800581D94 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FF932DC226EE04F400581D94 /* Owner */,
+				FF932DC126EE04ED00581D94 /* Pet */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FF932DC126EE04ED00581D94 /* Pet */ = {
+			isa = PBXGroup;
+			children = (
+				FF932DCC26EE054A00581D94 /* PetMain.swift */,
+				FF932DD726EE446100581D94 /* PetCreate.swift */,
+				FF29B1E426F2353C00640C14 /* PetDetail.swift */,
+				FF29B1E626F36CDB00640C14 /* PetEdit.swift */,
+			);
+			path = Pet;
+			sourceTree = "<group>";
+		};
+		FF932DC226EE04F400581D94 /* Owner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Owner;
+			sourceTree = "<group>";
+		};
+		FF932DC326EE04FB00581D94 /* Manage */ = {
+			isa = PBXGroup;
+			children = (
+				FF932DCA26EE053E00581D94 /* ManageMain.swift */,
+				FFAF8D2B26F74BC600BF14F0 /* StockList.swift */,
+				FFAF8D3526FCADA700BF14F0 /* StockHistory.swift */,
+				FF5D2CE02700962A008DD93A /* PurchaseProportionPie.swift */,
+				FF5D2CE227009D11008DD93A /* PurchaseProportionPiechart.swift */,
+				FF5D2CEB2707041D008DD93A /* PurchaseTrend.swift */,
+			);
+			path = Manage;
+			sourceTree = "<group>";
+		};
+		FF932DC426EE050400581D94 /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				FF29B1EA26F4C41300640C14 /* ItemList.swift */,
+				FF29B1EC26F5597E00640C14 /* ItemRow.swift */,
+				FF29B1EE26F5635500640C14 /* ItemDetail.swift */,
+				FF29B1F026F56ABB00640C14 /* SearchBar.swift */,
+			);
+			path = Item;
+			sourceTree = "<group>";
+		};
+		FF932DC526EE050D00581D94 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				FF932DC626EE052800581D94 /* CartMain.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		FF932DD426EE281400581D94 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF932DD526EE283E00581D94 /* Color+Ext.swift */,
+				FFAF8D2D26FAA43500BF14F0 /* Text+Ext.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,10 +351,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF5D2CE327009D11008DD93A /* PurchaseProportionPiechart.swift in Sources */,
+				FFAF8D2E26FAA43500BF14F0 /* Text+Ext.swift in Sources */,
+				FFAF8D3426FB6BA500BF14F0 /* PetStat.swift in Sources */,
+				FF5D2CDF26FF35EE008DD93A /* PetStatCreateViewModel.swift in Sources */,
+				FFBF7DA926FE2A54001B353E /* PetConsumeHistory.swift in Sources */,
+				FFAF8D3626FCADA700BF14F0 /* StockHistory.swift in Sources */,
 				FF932DB326EE045500581D94 /* Persistence.swift in Sources */,
+				FF5D2CEA2706F5EE008DD93A /* BarChart.swift in Sources */,
+				FF29B1ED26F5597E00640C14 /* ItemRow.swift in Sources */,
+				FF932DCB26EE053E00581D94 /* ManageMain.swift in Sources */,
+				FF29B1F326F5D39C00640C14 /* Carts.swift in Sources */,
+				FF918CAC26FEA12700D58974 /* PetConsumptionGraph.swift in Sources */,
+				FF5D2CE52700ACAA008DD93A /* PurchasePieChart.swift in Sources */,
+				FF5D2CEE2707F07D008DD93A /* LineChart.swift in Sources */,
+				FFAF8D3026FB69E900BF14F0 /* PurchaseHistory.swift in Sources */,
 				FF932DAC26EE045300581D94 /* ContentView.swift in Sources */,
+				FF932DD626EE283E00581D94 /* Color+Ext.swift in Sources */,
+				FF5D2CE7270690D7008DD93A /* PieCatColor.swift in Sources */,
+				FFAF8D3826FCC18600BF14F0 /* PetStatMain.swift in Sources */,
+				FF918CAE26FEA15800D58974 /* PetStatList.swift in Sources */,
+				FFAF8D2C26F74BC600BF14F0 /* StockList.swift in Sources */,
+				FF29B1EB26F4C41300640C14 /* ItemList.swift in Sources */,
+				FFAF8D3226FB6AB500BF14F0 /* ConsumptionHistory.swift in Sources */,
+				FF932DCF26EE1E4700581D94 /* Pets.swift in Sources */,
+				FF932DDA26EE488300581D94 /* PetCreateViewModel.swift in Sources */,
 				FF932DAA26EE045300581D94 /* iPetApp.swift in Sources */,
+				FF29B1E926F4C26B00640C14 /* Items.swift in Sources */,
+				FF29B1E726F36CDB00640C14 /* PetEdit.swift in Sources */,
+				FF918CB226FEA16D00D58974 /* PetStatGraph.swift in Sources */,
+				FF29B1E526F2353C00640C14 /* PetDetail.swift in Sources */,
+				FF918CB026FEA16200D58974 /* PetStatEdit.swift in Sources */,
+				FF5D2CEC2707041E008DD93A /* PurchaseTrend.swift in Sources */,
+				FF932DD826EE446100581D94 /* PetCreate.swift in Sources */,
+				FF29B1EF26F5635500640C14 /* ItemDetail.swift in Sources */,
+				FF5D2CE12700962A008DD93A /* PurchaseProportionPie.swift in Sources */,
+				FF29B1F726F6BA9C00640C14 /* CartCreateViewModel.swift in Sources */,
+				FF29B1F526F6B47B00640C14 /* Stores.swift in Sources */,
+				FF932DC726EE052800581D94 /* CartMain.swift in Sources */,
+				FF29B1F126F56ABB00640C14 /* SearchBar.swift in Sources */,
 				FF932DB626EE045500581D94 /* iPet.xcdatamodeld in Sources */,
+				FF932DCD26EE054A00581D94 /* PetMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
